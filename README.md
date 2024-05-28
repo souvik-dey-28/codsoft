@@ -6,15 +6,15 @@ Student name = Souvik Dey
 
 **Landing Page**
 
-- [Task 1](https://github.com/Rj1221/CODSOFT/tree/main/LandingPage](https://souvik-dey-28.github.io/codsoft/Task1-landing%20page/)
+- [Task 1] (https://souvik-dey-28.github.io/codsoft/Task1-landing%20page/)
 
 **Portfolio**
 
-- [Task 2](https://github.com/Rj1221/CODSOFT/tree/main/Calculator](https://souvik-dey-28.github.io/codsoft/Task1-2anding%20page/)
+- [Task 2] (https://souvik-dey-28.github.io/codsoft/Task1-2anding%20page/)
 
 **Calculator**
 
-- [Task 3](https://github.com/Rj1221/CODSOFT/tree/main/Portfolio](https://souvik-dey-28.github.io/codsoft/Task3-landing%20page/)
+- [Task 3](https://souvik-dey-28.github.io/codsoft/Task3-landing%20page/)
 
 ---
 
