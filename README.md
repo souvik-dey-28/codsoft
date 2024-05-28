@@ -20,11 +20,11 @@ Student name = Souvik Dey
 
 **Portfolio**
 
-- [Task 2  view demo](https://souvik-dey-28.github.io/codsoft/Task1-2anding%20page/)
+- [Task 2  view demo](https://souvik-dey-28.github.io/codsoft/task2-profolio/)
 
 **Calculator**
 
-- [Task 3  view demo](https://souvik-dey-28.github.io/codsoft/Task3-landing%20page/)
+- [Task 3  view demo](https://souvik-dey-28.github.io/codsoft/task3-calculator/)
 
 ---
 
@@ -47,14 +47,14 @@ This project aims to create a captivating and user-friendly landing page using H
 In this task, you will build your personal portfolio website to showcase your skills, projects, and achievements as a web developer. Your portfolio is a reflection of your professional identity, so make it stand out with these features:
 
 **view code**
-- [Task 2 code ](https://github.com/souvik-dey-28/codsoft/tree/main/Task2-landing%20page)
+- [Task 2 code ](https://github.com/souvik-dey-28/codsoft/tree/main/task2-profolio)
 
 🧮 Task 3 - "Calculator Website"
 
 This task focuses on building a fully functional calculator website using HTML, CSS, and JavaScript. The calculator should be capable of performing basic arithmetic operations and more complex calculations.
 
 **view code**
-- [Task 3 code ](https://github.com/souvik-dey-28/codsoft/tree/main/Task3-landing%20page)
+- [Task 3 code ](https://github.com/souvik-dey-28/codsoft/tree/main/task3-calculator)
 
 <!--
 ## License
