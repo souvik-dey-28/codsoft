@@ -6,15 +6,15 @@ Student name = Souvik Dey
 
 **Landing Page**
 
-- [Task 1](https://github.com/Rj1221/CODSOFT/tree/main/LandingPage)
-
-**Calculator**
-
-- [Task 2](https://github.com/Rj1221/CODSOFT/tree/main/Calculator)
+- [Task 1]([https://github.com/Rj1221/CODSOFT/tree/main/LandingPage](https://souvik-dey-28.github.io/codsoft/Task1-landing%20page/))
 
 **Portfolio**
 
-- [Task 3](https://github.com/Rj1221/CODSOFT/tree/main/Portfolio)
+- [Task 2]([https://github.com/Rj1221/CODSOFT/tree/main/Calculator](https://souvik-dey-28.github.io/codsoft/Task1-2anding%20page/))
+
+**Calculator**
+
+- [Task 3]([https://github.com/Rj1221/CODSOFT/tree/main/Portfolio](https://souvik-dey-28.github.io/codsoft/Task3-landing%20page/))
 
 ---
 
@@ -28,6 +28,8 @@ Internship Projects
 📄 Task 1 - "Landing Page"
 
 This project aims to create a captivating and user-friendly landing page using HTML and CSS. The landing page serves as the gateway to our website, making it crucial to leave a lasting impression on visitors. Here's what you need to know about the task:
+
+**view code**
 
 📁 Task 2 - "Portfolio Website"
 
