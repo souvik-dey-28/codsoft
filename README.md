@@ -7,15 +7,15 @@ Student name = Souvik Dey
 
 **Landing Page**
 
-- [Task 1](https://souvik-dey-28.github.io/codsoft/Task1-landing%20page/)
+- [Task 1 view demo](https://souvik-dey-28.github.io/codsoft/Task1-landing%20page/)
 
 **Portfolio**
 
-- [Task 2](https://souvik-dey-28.github.io/codsoft/Task1-2anding%20page/)
+- [Task 2  view demo](https://souvik-dey-28.github.io/codsoft/Task1-2anding%20page/)
 
 **Calculator**
 
-- [Task 3](https://souvik-dey-28.github.io/codsoft/Task3-landing%20page/)
+- [Task 3  view demo](https://souvik-dey-28.github.io/codsoft/Task3-landing%20page/)
 
 ---
 
