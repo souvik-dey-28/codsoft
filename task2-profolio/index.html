@@ -1,0 +1,765 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio | Souvik Dey</title>
+
+  <!-- theme color  -->
+  <meta name="theme-color" content="#008069">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <!-- added  -->
+  <meta name="keywords"
+    content="Souvik Dey, portfolio Souvik Dey, Web Developer, portfolio website, Souvik Dey website">
+
+  <meta name="description"
+    content="Welcome to Souvik's Portfolio. Passionate Web Developer & IT engineer student... ,Aparna Shukla Portfolio ,Portfolio">
+  <meta name="author" content="Souvik Dey">
+
+  <!-- rich link  -->
+  <meta property="og:title" content="SOUVIK DEY Portfolio" />
+  <meta property="og:image" content="https://souvik-dey-28.github.io/codsoft/task2-profolio/m1.jpg" />
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+  <meta property="og:description" content="Links to different platforms" />
+  <meta property="og:url" content="https://souvik-dey-28.github.io/codsoft/task2-profolio" />
+  <!-- new -->
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&amp;display=swap" rel="stylesheet">
+  <!-- done  -->
+  <!-- ===== FAV ICONS ===== -->
+
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/x-icon" href="a1.jpg" style="height:168 px; width: 168px;" alt="my pic">
+  <!-- ===== bootstrap link ===== -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- external css -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div id="loader" class="loader"></div>
+  <div id="content" class="hidden">
+
+
+    <!-- <div id="loader" class="loader">
+      <img srcset="a1.jpg"  alt="Logo" width="40" height="40" class="d-inline-block align-text-top rounded-3">
+        </div>
+        <div id="content" class="hidden"></div> -->
+
+
+    <!-- nav bar  -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body sticky-top"
+      data-bs-theme="dark">
+
+
+      <div class="container-fluid">
+
+
+
+        <a class="navbar-brand" href="#">
+          <img src="a1.jpg" alt="Logo" width="45" height="45"
+            class="d-inline-block align-text-top rounded-3 border border-3 border-danger-subtle">
+          <span class="display-6 d-inline-block align-text-top">SOUVIK DEY</span>
+        </a>
+        <!-- other img choices:sticky-top
+               data-bs-theme="dark" / style="background-colour:pnik;"
+           <img src="..." class="rounded-4" alt="..."> 
+           <img src="..." class="rounded-5 rounded-bottom-0" alt="...">
+           <img src="..." class="rounded-start-pill" alt="..."> -->
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+
+              <a href="#home" class="text-white m-1"><button type="button" class="btn btn-success m-1"> <i
+                    class="bi bi-house-door-fill"></i> &nbsp;Home &nbsp;</button></a>
+
+            </li>
+            <li class="nav-item">
+              <!-- <a class="nav-link " aria-current="page" href="#about">About</a> -->
+              <a href="#about" class="text-white"><button type="button" class="btn btn-warning m-1"><i
+                    class="bi bi-file-person"></i> &nbsp;About</button></a>
+            </li>
+            <li class="nav-item">
+              <!-- <a class="nav-link " aria-current="page" href="#">Home</a> -->
+              <a href="#img" class="text-white"><button type="button" class="btn btn-info m-1"><i
+                    class="bi bi-images"></i> &nbsp;Image</button></a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <!-- <a class="nav-link " aria-current="page" href="#contact">contact</a> -->
+              <a href="#portfolio" class="text-white"><button type="button" class="btn btn btn-secondary m-1">
+                  <!-- <i class="bi bi-person-circle"></i>  -->
+                  <i class="bi bi-person-workspace"></i>
+                  &nbsp;Portfolio</button></a>
+            </li>
+            <li class="nav-item">
+              <!-- <a class="nav-link" href="#">Link</a> -->
+              <a href="#contact" class="text-white"><button type="button" class="btn btn-danger m-1"><i
+                    class="bi bi-person-lines-fill"></i> &nbsp;Contact</button></a>
+            </li>
+            <li class="nav-item">
+              <!-- <a class="nav-link" href="#">Link</a> -->
+              <a href="SOUVIK.pdf" target="_blank" class="text-dark"><button 
+                 target="_blank" type="button"
+                  class="btn btn btn-light  m-1"><i class="bi bi-file-earmark-person-fill"></i> &nbsp;VIEW
+                  CV</button></a>
+            </li>
+
+
+          </ul>
+          <!-- <form class="d-flex" role="search">
+                   <button class="btn btn-outline-success" type="submit">DOWNLOAD RESUME</button>
+
+                     onclick="location.href='document/Aparna.pdf';" 
+               </form> -->
+        </div>
+      </div>
+    </nav>
+
+    <!-- nav end -->
+
+
+
+    <!-- Back to top button -->
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <!-- Back to top button end -->
+
+
+    <!--hero section-->
+
+    <section class="bg-main bg-color hero-section" id="home">
+      <div class="container">
+        <div class="row mb-5 ">
+          <div
+            class="d-flex flex-column align-items-start justify-content-center col-xl-6 xol-lg-6 col-md-12 col-12 order-1 order-lg-0 text-md-start text-center">
+            <h1 class=" text-capitalize fw-bolder text-dark">
+              SOUVIK DEY
+            </h1>
+            <p class="mt-3 mb-5  para-width text-light-grey ">
+              I'm Souvik Dey a 3rd-year IT Engineering Student .Proficient in C Programming, Python,
+              Java and Data Structures and Algorithms.
+            </p>
+
+            <div class="text-center w-100 text-md-start">
+            <a  href="SOUVIK.pdf" target="_blank"> <button class="btn btn-primary px-5 py-2 " data-bs-offset="0,5" data-bs-placement="top"
+                data-bs-
+                title="Get Best Services" data-bs-toggle="tooltip"><i class="bi bi-eye-fill "></i> &nbsp;View CV
+              </button> </a>
+            </div>
+
+          </div>
+
+          <div class="col-xl-6 xol-lg-6 col-md-12 col-12 order-0 order-lg-1 hero-image--section ">
+            <div class="text-md-end text-center mb-5">
+              <img src="a1.jpg" width="100%" height="100%" class=" pt-3 " alt="...">
+              <div class="col-lg-6 container ">
+                <!-- <video autoplay class="hero-video--section" loop muted src="./images/hero.mp4">
+                            Your browser does not support the video tag.
+                        </video> -->
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+    </section>
+
+
+    <!--hero section end -->
+
+
+    <!-- about bg-success -->
+    <div class="container-fluid mt-3 bg-info" id="about">
+      <h1 class="  text-white text-center"><i class="bi bi-file-person "></i>About</h1>
+
+      <p class="text-capitalize">Passionate web developer with a flair for creativity . here, in this section you can
+        see my About.</p>
+
+      <div class="row">
+        <div class="col-sm-5 p-3 bg-success text-white">
+         <video width="100%" height="100%" class=" pt-3 " autoplay
+            class="hero-video--section height" loop muted src="a3.mp4">
+            Your browser does not support the video tag.
+          </video>
+          <!-- <img src="a1.jpg" width="100%" height="100%" class=" pt-3 " alt="" srcset=""> -->
+        </div>
+        <div class="col-sm-7 p-3 bg-dark text-white">
+          <div class="container mt-5">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" id="myTabs" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="skills-tab" data-toggle="tab" href="#skills" role="tab"
+                  aria-controls="skills" aria-selected="true">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="experience-tab" data-toggle="tab" href="#experience" role="tab"
+                  aria-controls="experience" aria-selected="false">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="education-tab" data-toggle="tab" href="#education" role="tab"
+                  aria-controls="education" aria-selected="false">Education</a>
+              </li>
+            </ul>
+
+            <!-- Tab content -->
+            <div class="tab-content mt-3" id="myTabContent">
+              <!-- Skills tab -->
+              <div class="tab-pane fade show active" id="skills" role="tabpanel" aria-labelledby="skills-tab">
+                <p>
+                  I have expertise in the following areas:
+                <ul>
+                  <li>Web development (HTML, CSS, JavaScript)</li>
+                  <li>Database management (SQL,PHP)</li>
+                  <li>Software Developer (C, C++, PYTHON, JAVA)</li>
+                  <li>Ethical Hacking Student(KAIL LINUX)</li>
+                </ul>
+                </p>
+                <!-- skills progress tab start  -->
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+                  align="center" alt="html5" width="30" height="30" />html</img>
+                <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="90"
+                  aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated " style="width: 90%">90%
+                    Complete</div>
+                </div>
+                <br>
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                  align="center" alt="css3" width="30" height="30" />css3</img>
+                <div class="progress" role="progressbar" aria-label="Info striped example" aria-valuenow="75"
+                  aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar progress-bar-striped bg-info progress-bar-animated " style="width: 75%">75%
+                    Complete</div>
+                </div>
+                <br>
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                  align="center" alt="javascript" width="30" height="30" />JavaScript</img>
+                <div class="progress" role="progressbar" aria-label="Warning striped example" aria-valuenow="50"
+                  aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" style="width: 50%">50%
+                    Complete</div>
+                </div>
+                <br>
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+                  align="center" alt="java" width="30" height="30" />Java</img>
+                <div class="progress " role="progressbar" aria-label=" striped example" aria-valuenow="65"
+                  aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated"
+                    style="--bs-bg-opacity: 0.8;color: #ffffff ; width: 65%">65% Complete</div>
+                </div>
+
+                <br>
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"
+                  align="center" alt="c" width="30" height="30" />C</img>
+                <div class="progress " role="progressbar" aria-label=" striped example" aria-valuenow="80"
+                  aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar progress-bar-striped  progress-bar-animated" style="width: 80%">80% Complete
+                  </div>
+                </div>
+                <br>
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+                  align="center" alt="python" width="30" height="30" />python</img>
+                <div class="progress " role="progressbar" aria-label=" striped example" aria-valuenow="70"
+                  aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar progress-bar-striped  bg-success
+progress-bar-animated" style="--bs-bg-opacity: 0.8; color: #ffffff; width: 70%">70% Complete</div>
+                </div>
+                <br>
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
+                  align="center" alt="mysql" width="30" height="30" />Mysql</img>
+                <div class="progress " role="progressbar" aria-label=" striped example" aria-valuenow="60"
+                  aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" style="width: 60%">60%
+                    Complete</div>
+                </div>
+                <br>
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+                  align="center" alt="bootstrap" width="30" height="30" />Bootstrap</img>
+                <div class="progress " role="progressbar" aria-label=" striped example" aria-valuenow="50"
+                  aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar progress-bar-striped  bg-dark progress-bar-animated"
+                    style="--bs-bg-opacity: 0.8;  width: 50%">50% Complete</div>
+                </div>
+
+                <br>
+                <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"
+                align="center" alt="bootstrap" width="30" height="30" />Kali Linux</img>
+              <div class="progress " role="progressbar" aria-label=" striped example" aria-valuenow="45"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped  bg-dark progress-bar-animated"
+                  style=" width: 45%">45% Complete</div>
+              </div>
+
+              <br>
+                <!-- skill progress tab end -->
+
+
+              </div>
+
+              <!-- Experience tab -->
+              <div class="tab-pane fade" id="experience" role="tabpanel" aria-labelledby="experience-tab">
+                <p>
+                  <!-- I have worked as a software engineer for 5 years. -->I'm currently pursuing Bachelor of
+                  Technology - BTech, I.T.
+                  During this time, I contributed to various projects, collaborated with cross-functional teams, and
+                  gained valuable experience in full-stack development & Eithical Hacking .
+                </p>
+                <!-- <img src="exp.jpg" alt="experience image" width="100%" height="100%" srcset="exp.jpg"> -->
+              </div>
+
+              <!-- Education tab -->
+              <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="education-tab">
+                <!-- <p>
+                      I hold a Bachelor's degree in Computer Science from XYZ University. My coursework included algorithms, data structures, and software engineering principles. I graduated with honors in 2010.
+                  </p> -->
+
+                <div class="card-group p-3">
+                  <div class="card">
+                    <img src="raniganj-high-school.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Raniganj High School</h5>
+                      <p class="card-text">Madhyamik, Government School.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Jan 2012 May 2018</small>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="raniganj-high-school.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Raniganj High School</h5>
+                      <p class="card-text">Higher Secondary, Student</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Jun 2018 Jul 2020</small>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="bengal-college-engineering-and-technology-durgapur.jpg" class="card-img-top"
+                      alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Bengal College of Engineering and Technology (BCET), Durgapur</h5>
+                      <!-- <p class="card-text">I'm currently pursuing B.tech Computer Science & Engineering student. -->
+                      I'm currently pursuing Bachelor of Technology - BTech, I.T. </p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Sep 2021-Aug 2025</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Include Bootstrap JS (optional) -->
+          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        </div>
+
+      </div>
+    </div>
+    <!-- about end  -->
+
+    <div id="img">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active ">
+            <img src="2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="nit.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- carousal end  -->
+
+
+    <!-- main -->
+
+    <div class="container-fluid p-5 bg-primary text-white text-center" id="portfolio">
+      <h1> <i class="bi bi-person-workspace"></i> &nbsp;Portfolio</h1>
+      <p>Here , in this section you can see my works (Projects).</p>
+    </div>
+
+    <!-- <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>Column 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Column 2</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Column 3</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+        </div>
+      </div>
+    </div> -->
+
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-4 mt-3">
+          <div class="card" style="width: 100%;"> <!-- Full width for all screen sizes -->
+            <img src="bus.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">BUS TICKETS BOOKING</h5>
+              <p class="card-text">BUS TICKETS BOOKING SOFTWARE , using FRONTEND WEB DEV(HTML, TAILWIND CSS & JS) Programming Language</p>
+              <a href="https://souvik-dey-28.github.io/online-bus-ticket-booking2/" target="_blank" class="btn btn-primary">View Live</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 mt-3">
+          <div class="card" style="width: 100%;"> <!-- Full width for all screen sizes -->
+            <img src="weather.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">WEATHER WEBSITE</h5>
+              <p class="card-text">WEATHER website uses Programming Language (html5, css3, js, tailwind.css & API).</p>
+              <a href="https://souvik-dey-28.github.io/weather-details/" target="_blank" class="btn btn-primary">View Live</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 mt-3">
+          <div class="card" style="width: 100%;"> <!-- Full width for all screen sizes -->
+            <img src="ecommerce.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ECOMMERCE WEBSITE</h5>
+              <p class="card-text">ECOMMERCE WEBSITE website uses Programming Language (html5, TAILWIND.CSS , js).</p>
+              <a href="https://souvik-dey-28.github.io/ecommerce-website/" target="_blank" class="btn btn-primary">View Live</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <img src="./img/3.jpeg" alt="" srcset="./img/2.jpeg"> -->
+    <!-- footer -->
+    <hr class="border border-primary border-2 opacity-75" id="contact">
+    <footer class=" bg-body-tertiary text-center border-secondary mb-4 ">
+      <br>
+      <!-- Grid container -->
+      <div class="text-center "><i id="contact"
+          class="bi bi-person-lines-fill display text-center p-3 mb-2  bg-danger text-white text-warning rounded-5 text-capitalize"
+          role="button">&nbsp;contact
+          us</i>
+        <br> <br>
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <!-- <a
+            data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #3b5998;"
+              href="#!"  target="_blank"
+              role="button"
+              ><i class="fab fa-facebook-f">&nbsp;facebook</i
+            ></a> -->
+
+            <!-- Twitter -->
+            <!-- <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #55acee;"
+              href="#!"  target="_blank"
+              role="button"
+              ><i class="fab fa-twitter"> &nbsp;twitter</i
+            ></a> -->
+
+            <!-- Google -->
+            <!-- <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #dd4b39;"
+              href="#!" target="_blank"
+              role="button"
+              ><i class="fab fa-google">&nbsp;google</i
+            ></a> -->
+
+            <!-- Instagram -->
+            <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #ac2bac;"
+              href="https://www.instagram.com/souvik_dey_28/" target="_blank" role="button"><i
+                class="fab fa-instagram">&nbsp;instagram</i></a>
+
+            <!-- Linkedin -->
+            <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #0082ca;"
+              href="https://www.linkedin.com/in/souvik-dey-75892b260/"
+              target="_blank" role="button"><i class="fab fa-linkedin-in">&nbsp;linkedin</i></a>
+            <!-- Github -->
+            <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #333333;"
+              href="https://github.com/souvik-dey-28" target="_blank" role="button"><i
+                class="fab fa-github">&nbsp;github</i></a>
+            <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #064c10;"
+              href="tel:+917908535841" target="_blank" role="button"><i
+                class="fas fa-phone-square-alt">&nbsp;phone</i></a>
+            <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #ff7a06;"
+              href="mailto:deysouvik023@gmail.com" target="_blank" role="button"><i
+                class="fa fa-envelope">&nbsp;gmail</i></a>
+
+            <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #5d14e4;"
+              href="sms:+917908535841" target="_blank" role="button"><i class="fas fa-sms">&nbsp;message</i></a>
+            <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #0dff0d;"
+              href="https://wa.me/+917908535841?text=hi,+%0a+how+are+you?" target="_blank" role="button"><i
+                class="fab fa-whatsapp">&nbsp;Whatsapp</i></a>
+            <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #0609d0;"
+              href="https://t.me/+917908535841" target="_blank" role="button"><i
+                class="fab fa-telegram">&nbsp;Telegram</i></a>
+
+
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      </div>
+
+
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);"><img src="a1.jpg" alt="Logo"
+          width="30" height="30" class="d-inline-block align-text-top rounded-3  ">
+        SOUVIK DEY protfolio a web dev
+        </a>
+        © 2024 Copyright:
+        <a class="text-body" href="#">souvik.com</a>
+        <div class="text-body">
+          <a href="#" class="text-dark">Terms of Use</a>
+          <span class="text-muted mx-2">|</span>
+          <a href="#" class="text-dark">Privacy Policy</a>
+          <!-- quotes start  -->
+          <!-- 1st quotes start  -->
+          <div class="m-4">
+            <figure>
+              <blockquote class="blockquote">
+                <p>The world is a dangerous place to live; not because of the people who are evil, but because of the
+                  people who don't do anything about it.</p>
+              </blockquote>
+              <figcaption class="blockquote-footer">by <cite>Albert Einstein (14 March 1879 – 18 April 1955)</cite>
+              </figcaption>
+            </figure>
+          </div>
+          <!-- 2nd quotes start  -->
+          <div class="m-4">
+            <figure>
+              <blockquote class="blockquote">
+                <p>Arise, awake and stop not till the goal is reached.</p>
+              </blockquote>
+              <figcaption class="blockquote-footer">by <cite>Swami Vivekananda (12 January 1863 – 4 July 1902)</cite>
+              </figcaption>
+            </figure>
+          </div>
+          <!-- 3rd quotes start  -->
+          <div class="m-4">
+            <figure>
+              <blockquote class="blockquote">
+                <p>It is very simple to be happy, but it is very difficult to be simple.</p>
+              </blockquote>
+              <figcaption class="blockquote-footer">by <cite>Rabindranath Tagore (7 May 1861 – 7 August 1941)</cite>
+              </figcaption>
+            </figure>
+          </div>
+          <!-- 4th quotes start  -->
+          <div class="m-4">
+            <figure>
+              <blockquote class="blockquote">
+                <p>Let the future tell the truth and evaluate each one according to his work and accomplishments. The
+                  present is theirs; the future, for which I really worked, is mine.</p>
+              </blockquote>
+              <figcaption class="blockquote-footer">by <cite>Nikola Tesla (10 July 1856 – 7 January 1943)</cite>
+              </figcaption>
+            </figure>
+            <!-- 5th quotes start  -->
+            <div class="m-4">
+              <figure>
+                <blockquote class="blockquote">
+                  <p>However difficult life may seem, there is always something you can do and succeed at.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">by <cite>Stephen Hawking (8 January 1942 – 14 March 2018)</cite>
+                </figcaption>
+              </figure>
+            </div>
+
+            <!-- quotes end  -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+
+      <footer class="bg-primary text-white text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Footer Content</h5>
+
+              <p>
+                I'm Souvik Dey a 3rd-year I.T. Engineering Student & Passionate Web Developer .
+                Proficient in C Programming, Python,
+                Java and Data Structures and Algorithms.
+              </p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Quick Links</h5>
+      
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#home" class="text-white m-1"><button type="button" class="btn btn-success m-1"> <i
+                        class="bi bi-house-door-fill"></i> &nbsp;Home</button></a>
+                </li>
+                <li>
+                  <a href="#about" class="text-white"><button type="button" class="btn btn-warning m-1"><i
+                        class="bi bi-file-person"></i> &nbsp;About</button></a>
+                </li>
+                <li>
+                  <a href="#img" class="text-white"><button type="button" class="btn btn-info m-1"><i
+                        class="bi bi-images"></i> &nbsp;Image</button></a>
+                </li>
+                <li>
+                  <a href="#portfolio" class="text-white"><button type="button" class="btn btn-dark m-1">
+                      <!-- <i class="bi bi-person-circle"></i>  -->
+                      <i class="bi bi-person-workspace"></i>
+                      &nbsp;Portfolio</button></a>
+                </li>
+                <li>
+                  <a href="#contact" class="text-white"><button type="button" class="btn btn-danger m-1"><i
+                        class="bi bi-person-lines-fill"></i> &nbsp;Contact</button></a>
+                </li>
+                <li>
+                  <a href="SOUVIK.pdf" target="_blank" class="text-dark"><button 
+                      target="_blank" type="button"
+                       class="btn btn btn-light  m-1"><i class="bi bi-file-earmark-person-fill"></i> &nbsp;VIEW
+                       CV</button></a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-0">Contact Info</h5>
+
+              <ul class="list-unstyled">
+                <!-- <li>
+            <a href="#!" class="text-white">Link 1</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Link 2</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Link 3</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Link 4</a>
+          </li>
+        </ul> -->
+                <li></li> <a data-mdb-ripple-init class="btn text-white btn-floating m-1"
+                  style="background-color: #005070;"
+                  href="https://www.linkedin.com/in/souvik-dey-75892b260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  target="_blank" role="button"><i class="bi bi-linkedin">&nbsp;linkedin</i></a>
+                </li>
+                <!-- Github -->
+                <li></li><a data-mdb-ripple-init class="btn text-white btn-floating m-1"
+                  style="background-color: #333333;" href="https://github.com/souvik-dey-28" target="_blank"
+                  role="button"><i class="bi bi-github">&nbsp;github</i></a></li>
+                <li><a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #064c10;"
+                    href="tel:+917908535841" target="_blank" role="button"><i
+                      class="bi bi-telephone-forward-fill">&nbsp;phone</i></a>
+                </li>
+                <li><a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #ff7a06;"
+                    href="mailto:deysouvik023@gmail.com" target="_blank" role="button"><i
+                      class="bi bi-envelope-at-fill">&nbsp;gmail</i></a></li>
+
+                <li><a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #5d14e4;"
+                    href="sms:+917908535841" target="_blank" role="button"><i
+                      class="bi bi-chat-left-text-fill">&nbsp;message</i></a>
+                </li>
+                <li><a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #0dff0d;"
+                    href="https://wa.me/+917908535841?text=hi,%0a+how+are+you?" target="_blank"
+                    role="button"><i class="bi bi-whatsapp">&nbsp;Whatsapp</i></a></li>
+                <li><a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #0609d0;"
+                    href="https://t.me/+917908535841" target="_blank" role="button"><i
+                      class="bi bi-telegram">&nbsp;Telegram</i></a></li>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          <!-- © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a> -->
+          <img src="a1.jpg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top rounded-3  ">
+          SOUVIK DEY protfolio a web dev
+          </a>
+          © 2024 Copyright:
+          <a class="text-body" href="#">souvik.com</a>
+          <div class="text-body">
+            <a href="#" class="text-dark">Terms of Use</a>
+            <span class="text-muted mx-2">|</span>
+            <a href="#" class="text-dark">Privacy Policy</a>
+          </div>
+          <!-- Copyright -->
+      </footer>
+
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

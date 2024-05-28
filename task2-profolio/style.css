@@ -1,0 +1,113 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: "Karla", sans-serif; */
+  box-sizing: border-box;
+  outline: none;
+
+  margin-top: 0;
+  margin-bottom: 0;
+
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
+/* p.one {
+  border-style: solid;
+  border-color: red green blue yellow; } red top, green right, blue bottom and yellow left */
+
+  
+/* Change the selection background color to green  */
+
+
+ ::selection {
+  background-color: #66ff00;
+  color: white;
+}
+
+/* For Mozilla Firefox */
+::-moz-selection {
+  background-color: #66ff00;
+  color: white;
+}
+
+/*   
+  a {
+    color: white;
+    text-decoration: none;
+  } */
+/* html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: "Karla", sans-serif;
+  } */
+html::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: rgb(235, 202, 245);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #3efd04;
+}
+
+/* body {
+    color: white;
+  } 
+
+
+  /* go to top button  */
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  z-index: 100;
+}
+
+/* styles.css */
+
+/* Loader Styles */
+.loader {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -20px;
+  margin-top: -20px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Hide content initially */
+.hidden {
+  display: none;
+}
+
+/* extra  */
+/* .loader{
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+} */
