@@ -1,6 +1,15 @@
 # CODSOFT - Internship Repository
 Student name = Souvik Dey
 <br>
+<h1 align="center">Hi 👋, I'm SOUVIK DEY</h1>
+<h3 align="center">A passionate frontend developer from India.</h3>
+
+<img align="right" alt="coding" width="498" src="https://lh3.googleusercontent.com/FCTJV2u4ETqtkvFn0I1fY184UbdpWhqpAyyV6w7732ookhFnbAF_gBaWMNfAw28z_GhVeZmQIY7jbUuDlFEjWWv6ldLe7FvrJg4=w932">
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=souvik-dey-28&label=Profile%20views&color=0e75b6&style=flat" alt="souvik-dey-28" /> </p>
+
+<br>
+
 🌐 WebDev Internship Repository: A collection of my web development projects and code samples created during my internship. Exploring frontend and backend technologies to build modern, responsive, and dynamic web applications. Join me on my coding journey and let's create the web of tomorrow! 🚀 #WebDevelopment #Internship #CodeSamples"
 
 ## Table of Contents
